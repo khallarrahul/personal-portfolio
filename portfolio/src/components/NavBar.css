@@ -1,0 +1,24 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Center horizontally and create space between elements */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .desktopMenu {
+    display: flex; /* Create a flex container for the menu items */
+    gap: 20px; /* Adjust the gap between menu items as needed */
+  }
+  
+  .desktopMenuList {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
